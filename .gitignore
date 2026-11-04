@@ -1,0 +1,9 @@
+.venv/
+.local/
+__pycache__/
+*.pyc
+datos/*
+!datos/README.md
+evidencias/
+resultados/
+.DS_Store
