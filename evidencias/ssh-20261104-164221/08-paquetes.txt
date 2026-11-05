@@ -1,0 +1,42 @@
+    1   0.000000   172.22.0.1 → 172.22.0.2   TCP 80 55228 → 22 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=2542352684 TSecr=0 WS=128
+    2   0.000066   172.22.0.2 → 172.22.0.1   TCP 80 22 → 55228 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=206369750 TSecr=2542352684 WS=128
+    3   0.000117   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=2542352684 TSecr=206369750
+    4   0.001226   172.22.0.1 → 172.22.0.2   SSH 94 Client: Protocol (SSH-2.0-OpenSSH_10.2)
+    5   0.001268   172.22.0.2 → 172.22.0.1   TCP 72 22 → 55228 [ACK] Seq=1 Ack=23 Win=65152 Len=0 TSval=206369751 TSecr=2542352685
+    6   0.014313   172.22.0.2 → 172.22.0.1   SSHv2 115 Server: Protocol (SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.20)
+    7   0.014731   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [ACK] Seq=23 Ack=44 Win=64256 Len=0 TSval=2542352698 TSecr=206369764
+    8   0.016492   172.22.0.2 → 172.22.0.1   SSHv2 304 Server: Key Exchange Init
+    9   0.016556   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [ACK] Seq=23 Ack=276 Win=64128 Len=0 TSval=2542352700 TSecr=206369766
+   10   0.016620   172.22.0.1 → 172.22.0.2   SSHv2 304 Client: Key Exchange Init
+   11   0.019660   172.22.0.1 → 172.22.0.2   SSHv2 120 Client: Elliptic Curve Diffie-Hellman Key Exchange Init
+   12   0.019800   172.22.0.2 → 172.22.0.1   TCP 72 22 → 55228 [ACK] Seq=276 Ack=303 Win=64896 Len=0 TSval=206369770 TSecr=2542352700
+   13   0.023872   172.22.0.2 → 172.22.0.1   SSHv2 440 Server: Elliptic Curve Diffie-Hellman Key Exchange Reply, New Keys, Encrypted packet (len=160)
+   14   0.033160   172.22.0.1 → 172.22.0.2   SSHv2 184 Client: New Keys, Encrypted packet (len=96)
+   15   0.033258   172.22.0.1 → 172.22.0.2   SSHv2 136 Client: Encrypted packet (len=64)
+   16   0.033328   172.22.0.2 → 172.22.0.1   TCP 72 22 → 55228 [ACK] Seq=644 Ack=479 Win=64768 Len=0 TSval=206369783 TSecr=2542352717
+   17   0.033436   172.22.0.2 → 172.22.0.1   SSHv2 136 Server: Encrypted packet (len=64)
+   18   0.034340   172.22.0.1 → 172.22.0.2   SSHv2 152 Client: Encrypted packet (len=80)
+   19   0.035258   172.22.0.2 → 172.22.0.1   SSHv2 216 Server: Encrypted packet (len=144)
+   20   0.039329   172.22.0.1 → 172.22.0.2   SSHv2 232 Client: Encrypted packet (len=160)
+   21   0.040005   172.22.0.2 → 172.22.0.1   SSHv2 184 Server: Encrypted packet (len=112)
+   22   0.041812   172.22.0.1 → 172.22.0.2   SSHv2 408 Client: Encrypted packet (len=336)
+   23   0.055433   172.22.0.2 → 172.22.0.1   SSHv2 120 Server: Encrypted packet (len=48)
+   24   0.057094   172.22.0.1 → 172.22.0.2   SSHv2 232 Client: Encrypted packet (len=160)
+   25   0.090781   172.22.0.2 → 172.22.0.1   SSHv2 360 Server: Encrypted packet (len=288)
+   26   0.131056   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [ACK] Seq=1215 Ack=1300 Win=64128 Len=0 TSval=2542352815 TSecr=206369841
+   27   0.131113   172.22.0.2 → 172.22.0.1   SSHv2 296 Server: Encrypted packet (len=224)
+   28   0.131177   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [ACK] Seq=1215 Ack=1524 Win=64128 Len=0 TSval=2542352815 TSecr=206369881
+   29   0.133448   172.22.0.1 → 172.22.0.2   SSHv2 184 Client: Encrypted packet (len=112)
+   30   0.134306   172.22.0.2 → 172.22.0.1   SSHv2 184 Server: Encrypted packet (len=112)
+   31   0.137206   172.22.0.1 → 172.22.0.2   SSHv2 120 Client: Encrypted packet (len=48)
+   32   0.142938   172.22.0.2 → 172.22.0.1   SSHv2 136 Server: Encrypted packet (len=64)
+   33   0.146920   172.22.0.2 → 172.22.0.1   SSHv2 136 Server: Encrypted packet (len=64)
+   34   0.147116   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [ACK] Seq=1375 Ack=1764 Win=64128 Len=0 TSval=2542352831 TSecr=206369893
+   35   0.147331   172.22.0.2 → 172.22.0.1   SSHv2 136 Server: Encrypted packet (len=64)
+   36   0.149107   172.22.0.2 → 172.22.0.1   SSHv2 152 Server: Encrypted packet (len=80)
+   37   0.149226   172.22.0.2 → 172.22.0.1   SSHv2 248 Server: Encrypted packet (len=176)
+   38   0.149618   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [ACK] Seq=1375 Ack=2084 Win=64128 Len=0 TSval=2542352833 TSecr=206369897
+   39   0.151340   172.22.0.1 → 172.22.0.2   SSHv2 200 Client: Encrypted packet (len=128)
+   40   0.151448   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [FIN, ACK] Seq=1503 Ack=2084 Win=64128 Len=0 TSval=2542352835 TSecr=206369897
+   41   0.153266   172.22.0.2 → 172.22.0.1   TCP 72 22 → 55228 [FIN, ACK] Seq=2084 Ack=1504 Win=64128 Len=0 TSval=206369903 TSecr=2542352835
+   42   0.153377   172.22.0.1 → 172.22.0.2   TCP 72 55228 → 22 [ACK] Seq=1504 Ack=2085 Win=64128 Len=0 TSval=2542352837 TSecr=206369903

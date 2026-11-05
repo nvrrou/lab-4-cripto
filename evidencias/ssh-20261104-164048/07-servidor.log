@@ -1,0 +1,10 @@
+ssh-1  | Server listening on 0.0.0.0 port 22.
+ssh-1  | Connection from 172.22.0.1 port 60856 on 172.22.0.2 port 22 rdomain ""
+ssh-1  | Accepted key ED25519 SHA256:JyDiQWPuS6cc7+Ul3gaonj8Z5DOo97542GXhuuumSjI found at /home/alumno/.ssh/authorized_keys:1
+ssh-1  | Postponed publickey for alumno from 172.22.0.1 port 60856 ssh2 [preauth]
+ssh-1  | Accepted key ED25519 SHA256:JyDiQWPuS6cc7+Ul3gaonj8Z5DOo97542GXhuuumSjI found at /home/alumno/.ssh/authorized_keys:1
+ssh-1  | Accepted publickey for alumno from 172.22.0.1 port 60856 ssh2: ED25519 SHA256:JyDiQWPuS6cc7+Ul3gaonj8Z5DOo97542GXhuuumSjI
+ssh-1  | User child is on pid 58
+ssh-1  | Starting session: command for alumno from 172.22.0.1 port 60856 id 0
+ssh-1  | Received disconnect from 172.22.0.1 port 60856:11: disconnected by user
+ssh-1  | Disconnected from user alumno 172.22.0.1 port 60856

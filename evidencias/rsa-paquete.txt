@@ -1,0 +1,105 @@
+Frame 1: 320 bytes on wire (2560 bits), 320 bytes captured (2560 bits)
+    Encapsulation type: Raw IPv4 (129)
+    Arrival Time: Oct 15, 2026 15:37:52.945731000 -03
+    UTC Arrival Time: Oct 15, 2026 18:37:52.945731000 UTC
+    Epoch Arrival Time: 1792089472.945731000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 320 bytes (2560 bits)
+    Capture Length: 320 bytes (2560 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: ip:tcp:data]
+Internet Protocol Version 4, Src: 10.10.10.10, Dst: 10.10.10.20
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 320
+    Identification: 0x0001 (1)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x5186 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.10.10.10
+    Destination Address: 10.10.10.20
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 49152, Dst Port: 4444, Seq: 1, Ack: 1, Len: 280
+    Source Port: 49152
+    Destination Port: 4444
+    [Stream index: 0]
+    [Stream Packet Number: 1]
+    [Conversation completeness: Incomplete (0)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 0... = Data: Absent
+        .... .0.. = ACK: Absent
+        .... ..0. = SYN-ACK: Absent
+        .... ...0 = SYN: Absent
+        [Completeness Flags: [ Null ]]
+    [TCP Segment Len: 280]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 230627
+    [Next Sequence Number: 281    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 0
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8192
+    [Calculated window size: 8192]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x380d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.000000000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [Bytes in flight: 280]
+        [Bytes sent since last PSH flag: 280]
+    TCP payload (280 bytes)
+Data (280 bytes)
+    Data […]: 5253415f50494e7c1a065da01a70284041b93dd58e9889072e94beb47c1f4ffd21ca429adaf26a5e83d718673cb0a25e82fc8a2705bf746cbf40d98c20f78bc2732e0994ccc6bad313ad002a0daf0c339995c7eabb2bca1f79b60259f122cd0157428f2eb59bac29388ca405aa0a9762663
+    [Length: 280]
+
+0000  45 00 01 40 00 01 00 00 40 06 51 86 0a 0a 0a 0a   E..@....@.Q.....
+0010  0a 0a 0a 14 c0 00 11 5c 00 03 84 e3 00 00 00 00   .......\........
+0020  50 18 20 00 38 0d 00 00 52 53 41 5f 50 49 4e 7c   P. .8...RSA_PIN|
+0030  1a 06 5d a0 1a 70 28 40 41 b9 3d d5 8e 98 89 07   ..]..p(@A.=.....
+0040  2e 94 be b4 7c 1f 4f fd 21 ca 42 9a da f2 6a 5e   ....|.O.!.B...j^
+0050  83 d7 18 67 3c b0 a2 5e 82 fc 8a 27 05 bf 74 6c   ...g<..^...'..tl
+0060  bf 40 d9 8c 20 f7 8b c2 73 2e 09 94 cc c6 ba d3   .@.. ...s.......
+0070  13 ad 00 2a 0d af 0c 33 99 95 c7 ea bb 2b ca 1f   ...*...3.....+..
+0080  79 b6 02 59 f1 22 cd 01 57 42 8f 2e b5 9b ac 29   y..Y."..WB.....)
+0090  38 8c a4 05 aa 0a 97 62 66 3f df ab f6 61 78 09   8......bf?...ax.
+00a0  f3 35 09 97 3e 99 cb e6 f5 02 fb 4a 84 4c 19 06   .5..>......J.L..
+00b0  40 82 24 0a 15 cb b1 53 65 6d a0 b1 74 1f 4e 8a   @.$....Sem..t.N.
+00c0  2c 1c 2e 64 53 55 01 ac 1f 19 fd 3f 37 ad 21 02   ,..dSU.....?7.!.
+00d0  63 6d e0 5c 65 26 bf 84 6c 74 81 26 57 e6 07 3b   cm.\e&..lt.&W..;
+00e0  ff d5 88 d9 3c 04 1c bc 38 be 55 ab da c6 39 a0   ....<...8.U...9.
+00f0  1a c2 0e 5c 3b 58 c2 34 c8 78 65 3c ee d7 a7 b0   ...\;X.4.xe<....
+0100  ad 69 10 d9 e1 ce 5c bc 73 4a b7 ad 2e b4 c2 88   .i....\.sJ......
+0110  7b f8 84 28 b3 40 49 29 ea 91 59 83 1b 6b 49 13   {..(.@I)..Y..kI.
+0120  3a bc 6f 11 21 ff 56 0c 8d 97 4e 4d c7 65 a3 27   :.o.!.V...NM.e.'
+0130  54 d6 f5 12 9f f5 d1 eb c1 c9 78 31 a5 fa a6 de   T.........x1....
+

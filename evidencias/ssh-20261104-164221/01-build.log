@@ -1,0 +1,54 @@
+--progress is a global compose flag, better use `docker compose --progress xx build ...
+ Image lab4-cripto-ssh Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 496B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 561B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:24.04
+#3 DONE 0.1s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 68B 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 DONE 0.0s
+
+#6 [1/5] FROM docker.io/library/ubuntu:24.04@sha256:fe81560990fae86dc4743202b2cb4d3df98d0bcf949173cecef15ce1127ef852
+#6 resolve docker.io/library/ubuntu:24.04@sha256:fe81560990fae86dc4743202b2cb4d3df98d0bcf949173cecef15ce1127ef852 0.1s done
+#6 DONE 0.1s
+
+#5 [internal] load build context
+#5 transferring context: 97B done
+#5 DONE 0.1s
+
+#7 [3/5] COPY ssh/sshd_config /etc/ssh/sshd_config
+#7 CACHED
+
+#8 [4/5] COPY ssh/entrypoint.sh /usr/local/bin/lab-entrypoint
+#8 CACHED
+
+#9 [2/5] RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends openssh-server tcpdump ca-certificates     && rm -rf /var/lib/apt/lists/*     && useradd --create-home --shell /bin/bash alumno     && mkdir -p /run/sshd /etc/ssh/host_keys     && rm -f /etc/ssh/ssh_host_*
+#9 CACHED
+
+#10 [5/5] RUN chmod 755 /usr/local/bin/lab-entrypoint
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers 0.0s done
+#11 exporting manifest sha256:e3b320c959129d234c47a5decc3a72ad131ef0877a54c58b980aa6a5106159ab done
+#11 exporting config sha256:734776a59d44d74e6ed567dea3d945bbdff0f1e9d0a2c67dec7b9ac1bf9ba8e1 done
+#11 exporting attestation manifest sha256:1873f276d3b576e4d15ab3338c75fd83f9185f3fed8004920e4759b5c292ed17
+#11 exporting attestation manifest sha256:1873f276d3b576e4d15ab3338c75fd83f9185f3fed8004920e4759b5c292ed17 0.0s done
+#11 exporting manifest list sha256:486561d3151ac96c008f6a040452b8c23a36a8fc80f339b7b5d219bab4992513 0.0s done
+#11 naming to docker.io/library/lab4-cripto-ssh:latest 0.0s done
+#11 unpacking to docker.io/library/lab4-cripto-ssh:latest 0.0s done
+#11 DONE 0.4s
+
+#12 resolving provenance for metadata file
+#12 DONE 0.0s
+ Image lab4-cripto-ssh Built 

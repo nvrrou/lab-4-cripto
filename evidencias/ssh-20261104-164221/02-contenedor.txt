@@ -1,0 +1,2 @@
+NAME                IMAGE             COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+lab4-cripto-ssh-1   lab4-cripto-ssh   "/usr/local/bin/lab-…"   ssh       4 seconds ago   Up 3 seconds (healthy)   127.0.0.1:2222->22/tcp

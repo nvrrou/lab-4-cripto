@@ -1,0 +1,12 @@
+test_aes_authentication_and_binary_delimiter (test_descifrar.CryptoTests.test_aes_authentication_and_binary_delimiter) ... ok
+test_pcap_end_to_end_and_retransmission (test_descifrar.CryptoTests.test_pcap_end_to_end_and_retransmission) ... ok
+test_rejects_changed_nonce_ciphertext_and_tag (test_descifrar.CryptoTests.test_rejects_changed_nonce_ciphertext_and_tag) ... ok
+test_rejects_truncated_records (test_descifrar.CryptoTests.test_rejects_truncated_records) ... ok
+test_rejects_wrong_aes_key (test_descifrar.CryptoTests.test_rejects_wrong_aes_key) ... ok
+test_rejects_wrong_rsa_key (test_descifrar.CryptoTests.test_rejects_wrong_rsa_key) ... ok
+test_rsa_preserves_leading_zeros (test_descifrar.CryptoTests.test_rsa_preserves_leading_zeros) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.536s
+
+OK
